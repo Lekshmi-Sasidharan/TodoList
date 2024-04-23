@@ -1,0 +1,28 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting default font family and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Centering content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
